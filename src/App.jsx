@@ -1,10 +1,12 @@
+import Calculator from './components/Calculator';
+import './App.css';
 
 function App() {
-  return (
-    <>
-     dfasfsa
-    </>
-  )
+ return (
+   <div>
+       <Calculator />
+   </div>
+ );
 }
 
-export default App
+export default App;

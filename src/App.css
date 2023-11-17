@@ -5,8 +5,52 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(136,135,219,0.755663617986257) 26%, rgba(0,39,47,1) 100%);
+}
+
+input::placeholder {
+    color: black;
+}
+
+input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border-color: lightgray;
+    border: 1px solid #e3e5e1;
+    background: #fff;
+    font-weight: 600;
+    color: #000;
+    font-size: 1.6rem;
+    padding: 1.3rem 1.6rem;
+    border-radius: 10px;
+}
+
+p {
+    color: red;
+    font-size: 10px;
+    text-align: left;
+}
+
+h4 {
+    margin-top: 50px !important;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+}
+
+.inputlar{
+    position: relative;
+    /* z-index: 0; */
+}
+.scroll{
+    position: relative;
+    margin-top: -22px;
+    z-index: 111;
+}
+
+label{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
